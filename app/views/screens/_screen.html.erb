@@ -1,0 +1,27 @@
+<div id="<%= dom_id screen %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= screen.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Content:</strong>
+    <%= screen.content %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Visits:</strong>
+    <%= screen.visits %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Conversions:</strong>
+    <%= screen.conversions %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this screen", screen, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to 'Edit this screen', edit_screen_path(screen), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>
