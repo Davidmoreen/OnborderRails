@@ -1,24 +1,5 @@
-# README
+# OnBorder Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails source code for the onborder tutorial
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+View the tutorial at: https://davidmoreen.com/tutorial-create-a-no-code-style-native-ios-screen-builder-with-a-ruby-on-rails-backend
